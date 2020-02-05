@@ -1,0 +1,284 @@
+.header-container{
+    position: relative;
+
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+
+}
+.headertextwrap {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 10;
+}
+.headertext {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+}
+.headertext1 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8vw;
+}
+[data-aos="headertext"]{
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+[data-aos="headertext"].aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+}
+.mainimg {
+    text-align: center;
+    width: 120%;
+    float: center;
+
+}
+[data-aos="mainimg"]{
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+[data-aos="mainimg"].aos-animate {
+    transform: translateY(0);
+    opacity: 1;
+}
+.shopnow {
+    position: sticky;
+    margin-top: -2vh;
+    top: 50px;
+    width: 100vw;
+    height: 50px;
+    background-color: #121113;
+    color: white;
+    z-index: 18;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoplink {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 10px;
+    text-decoration: none;
+
+    font-weight: 150;
+    font-size: 12px;
+    color: white;
+    transition: 0.2s ease-in;
+    letter-spacing: 1.3px;
+    transition: 0.2s ease-in;
+    opacity: 0.5;
+
+
+}
+
+.active,
+.shopp:hover > * {
+    opacity: 0.5;
+}
+.active,
+.shopp:hover > *:hover {
+
+    opacity: 1;
+}
+
+.shopp:hover > * {
+    opacity: 0.5;
+}
+
+
+
+.shopp:hover > *:hover {
+
+    opacity: 1;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+     margin-bottom: 20px;
+
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+
+
+}
+
+.searchstore {
+    margin-top: 40px;
+   padding: 0 35px;
+ text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+.search_bar {
+      margin-top: 20px;
+    height: 38px;
+    width: 300px;
+    border-radius: 25px;
+   border: solid 2px #121113;
+    padding: 10px 0 10px 10px;
+    background: white;
+
+}
+
+
+.search_button {
+    float: right;
+    line-height: 15px;
+    color: #121113;
+    width: 40px;
+    height: 38px;
+    cursor: pointer;
+
+
+
+}
+
+.search_text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding-left: 10px;
+    color: black;
+    font-size: 12px;
+    width: 230px;
+    line-height: 18px;
+
+}
+
+.buttonvisit {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background: none;
+     margin-top: 20px;
+    border-bottom: 2px solid  #FF3434;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.buttonvisit:hover {
+    opacity: 0.8;
+}
+.slide {
+
+   width: 100vw;
+    padding: 0 25px;
+    display: flex;
+    margin: auto;
+ flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.product-wrap {
+    width: 90%;
+    padding: 25px 30px;
+}
+.product-img-wrap {
+    overflow: hidden;
+ margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.product-section:hover img {
+    transform: scale(1.2)
+
+}
+
+.product-img {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    transition: 0.3s ease;
+
+
+}
+
+.offer {
+letter-spacing: 1.3px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+    padding: 2px 5px;
+    background-color: #121113;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.price {
+
+    position: absolute;
+    bottom: 30px;
+    left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+}
+
+@media(max-width:890px){
+            .searchstore {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+}
+@media(max-width:490px){
+
+.shoplink {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 30px;
+    width: 50px;
+    text-decoration: none;
+
+
+    font-weight: 150;
+    font-size: 12px;
+    color: white;
+    transition: 0.2s ease-in;
+    letter-spacing: 1.3px;
+    transition: 0.2s ease-in;
+    opacity: 0.5;
+
+
+}
+}
