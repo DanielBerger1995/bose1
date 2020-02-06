@@ -280,7 +280,7 @@ hr {
 .hr4 {
       height: 4px;
     width: 40px;
-    margin-left: 70px;
+
     background-color: white;
 }
 
@@ -505,7 +505,7 @@ letter-spacing: 1.5px;
 
     margin: 20px auto 0 auto;
 border-radius: 25px;
-    width: 220px;
+    width: 280px;
     background-color: #FF3434;
     color: white;
     padding: 5px;
@@ -631,7 +631,7 @@ letter-spacing: 2.3px;
 }
 
 .register-title {
-text-align: center;
+
     font-family: 'Poppins', sans-serif;
     position: absolute;
      top: 50%;
