@@ -280,7 +280,7 @@ hr {
 .hr4 {
       height: 4px;
     width: 40px;
-    margin-left: 92px;
+    margin-left: 70px;
     background-color: white;
 }
 
@@ -638,7 +638,7 @@ text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
+width: 300px;
     font-size: 24px;
 
 }
@@ -1014,9 +1014,7 @@ height: auto;
        .limited-offer2 {
         margin-top: 0;
     }
-    .register-text {
-        width: 80%;
-    }
+
 
 
     footer {
