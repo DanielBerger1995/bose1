@@ -600,6 +600,7 @@ letter-spacing: 2.3px;
 
 
 .stories-img {
+position: absolute;
 
     object-fit: cover;
 }
@@ -638,7 +639,7 @@ letter-spacing: 2.3px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-width: 300px;
+width: 280px;
     font-size: 24px;
 
 }
