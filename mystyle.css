@@ -48,7 +48,7 @@ nav {
     margin: 0 15px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-weight: 150;
+
     font-size: 12px;
     color: white;
     transition: 0.2s ease-in;
@@ -253,7 +253,7 @@ nav {
     top: -50px;
     width: 100vw;
     margin: auto auto 20px auto;
-    padding-left: 25px;
+
     color: #121113;
      font-family: 'Poppins', sans-serif;
     font-size: 24px;
@@ -269,6 +269,7 @@ hr {
     height: 4px;
     width: 40px;
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .hr3 {
@@ -276,8 +277,15 @@ hr {
     width: 20px;
     background-color: white;
 }
+.hr4 {
+      height: 4px;
+    width: 40px;
+    margin-left: 92px;
+    background-color: white;
+}
 
 .products {
+    position: relative;
     top: -50px;
     width: 100vw;
     padding: 0 25px;
@@ -437,14 +445,35 @@ letter-spacing: 2.3px;
     margin: 50px auto 0 auto;
 border-radius: 25px;
     width: 220px;
-    background: #191919;
+    background: transparent;
     color: white;
-    padding: 6px;
+    padding: 5px;
     height: 40px;
     overflow-y: hidden;
     text-align: center;
+    align-items: center;
     text-decoration: none;
     border: solid 2px white;
+    cursor: pointer;
+    transition: 0.4s ease;
+letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.button7 {
+
+    margin: 50px auto 0 auto;
+border-radius: 25px;
+    width: 220px;
+    background: #121113;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    overflow-y: hidden;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border: solid 2px #121113;
     cursor: pointer;
     transition: 0.4s ease;
 letter-spacing: 1.5px;
@@ -454,16 +483,17 @@ letter-spacing: 1.5px;
 
 .button4 {
 
-    margin: 50px auto 0 auto;
+    margin: 30px auto 0 auto;
 border-radius: 25px;
     width: 220px;
     background-color: transparent;
     color: white;
-    padding: 6px;
+    padding: 5px;
     height: 40px;
     overflow-y: hidden;
     text-align: center;
     text-decoration: none;
+     align-items: center;
     border: solid 2px white;
     cursor: pointer;
     transition: 0.4s ease;
@@ -471,17 +501,18 @@ letter-spacing: 1.5px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
-.button5 {
+.button6 {
 
-    margin: 20px auto 0 40px;
+    margin: 20px auto 0 auto;
 border-radius: 25px;
     width: 220px;
     background-color: #FF3434;
     color: white;
-    padding: 6px;
+    padding: 5px;
     height: 40px;
     overflow-y: hidden;
     text-align: center;
+    align-items: center;
     text-decoration: none;
     border: solid 2px #FF3434;
     cursor: pointer;
@@ -502,6 +533,14 @@ letter-spacing: 1.5px;
 
 }
 .button5:hover .button-info {
+    transform: translateY(-54px)
+
+}
+.button6:hover .button-info {
+    transform: translateY(-54px)
+
+}
+.button7:hover .button-info {
     transform: translateY(-54px)
 
 }
@@ -554,8 +593,9 @@ letter-spacing: 2.3px;
 .stories-link {
     position: relative;
     height: 600px;
-    width: auto;
+    width: 100vw;
     overflow: hidden;
+
 }
 
 
@@ -591,7 +631,7 @@ letter-spacing: 2.3px;
 }
 
 .register-title {
-
+text-align: center;
     font-family: 'Poppins', sans-serif;
     position: absolute;
      top: 50%;
@@ -603,7 +643,7 @@ letter-spacing: 2.3px;
 
 }
 .register-text {
-    font-size: 12px;
+    font-size: 18px;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -648,7 +688,7 @@ footer {
 }
 
 .footerlinks {
-    width: 125px;
+    width: 110px;
     margin: 20px 20px;
 }
 
@@ -667,6 +707,9 @@ footer {
     color: #d3d3d3;
     margin-top: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.flag {
+    width: 80px;
 }
 
 .followicons {
@@ -879,32 +922,20 @@ border-radius: 25px;
 
 
 @media(max-width:690px) {
-.shopnow {
-    position: sticky;
-    margin-top: -2vh;
-    top: 50px;
-    width: 100vw;
-    height: 50px;
-    background-color: #121113;
-    color: white;
-    z-index: 18;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .popular {
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   padding-left: 0;
     top: -50px;
-    width: 340px;
+    width: 300px;
     margin: auto auto 20px auto;
     color: #121113;
      font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
 }
   .product-section {
     margin: 10px auto;
@@ -924,7 +955,10 @@ border-radius: 25px;
     footer {
         flex-direction: column-reverse;
     }
-
+.stories-img {
+margin-left: -300px;
+    object-fit: cover;
+}
 
     #myVideo {
 
